@@ -24,4 +24,4 @@ deepspeed vary/train/train_qwen_vary.py --deepspeed zero_config/ds_config_zero3.
           --num_train_epochs 5 \
           --learning_rate 1e-5 \
           --datasets tiku_box2_train \
-          --output_dir ../runs/0819
+          --output_dir ../runs/0820

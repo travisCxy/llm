@@ -1,0 +1,11 @@
+/mnt/ceph2/Vary/转word测试数据/数学2/初一-312923818-whiten.jpg 12.269676685333252
+/mnt/ceph2/Vary/转word测试数据/数学2/初三-317240343-whiten.jpg 18.747565746307373
+/mnt/ceph2/Vary/转word测试数据/数学2/初一-313062998-whiten.jpg 19.24774146080017
+/mnt/ceph2/Vary/转word测试数据/数学2/初一-313375664-whiten.jpg 11.426406383514404
+/mnt/ceph2/Vary/转word测试数据/数学2/4年级-320187311-whiten.jpg 8.252188205718994
+/mnt/ceph2/Vary/转word测试数据/数学2/2年级-318537697-whiten.jpg 13.502436876296997
+/mnt/ceph2/Vary/转word测试数据/数学2/初一-313063092-whiten.jpg 24.14376950263977
+/mnt/ceph2/Vary/转word测试数据/数学2/300713685-2.jpg 20.31529402732849
+/mnt/ceph2/Vary/转word测试数据/数学2/300714102-2.jpg 14.879300355911255
+/mnt/ceph2/Vary/转word测试数据/数学2/351433615-2.jpg 16.56891965866089
+/mnt/ceph2/Vary/转word测试数据/数学2/6年级-317127999-whiten.jpg 17.18061375617981

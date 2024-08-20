@@ -1,0 +1,27 @@
+python vary/train/train_lora.py \
+          --model_name_or_path /mnt/ceph2/Vary/runs/0711/awq/ \
+          --vision_tower /mnt/ceph2/pretrained/Ucas/vit-large-patch14/ \
+          --freeze_vision_tower True \
+          --freeze_lm_model False \
+          --vision_select_layer -2 \
+          --use_im_start_end True \
+          --bf16 True \
+          --per_device_eval_batch_size 1 \
+          --gradient_accumulation_steps 4 \
+          --evaluation_strategy "no" \
+          --save_strategy "steps" \
+          --save_steps 1000 \
+          --save_total_limit 2 \
+          --weight_decay 0. \
+          --warmup_ratio 0.03 \
+          --lr_scheduler_type "cosine" \
+          --logging_steps 1 --tf32 True \
+          --model_max_length 4096 \
+          --gradient_checkpointing True \
+          --dataloader_num_workers 16 \
+          --report_to tensorboard \
+          --per_device_train_batch_size 1\
+          --num_train_epochs 3 \
+          --learning_rate 1e-5 \
+          --datasets tiku_id2_train+sjb_id2_train+camera_id2_train \
+          --output_dir ../runs/0805
